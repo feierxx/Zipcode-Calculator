@@ -1,4 +1,4 @@
-![image](https://github.com/feierxx/Zipcode-Calculator/assets/158087978/255c465b-0cf9-41a4-98a7-914a10484f6a)# Zipcode Calculator
+Zipcode Calculator
 -------EMRTS project
 
 It is an interactive website with Python Django structure that enables the users to calculate the distance between two U.S. zipcode. Users are provided with instructions to input with two 5-digit valid U.S. zipcode to the website. If the zipcodes are invalid, an error message will be returned with instructions and return button.
@@ -29,7 +29,9 @@ Return Error message with return button
 
 ## Instruction
 
-Download the zip_distance folder to target folder. Use terminal with `cd` command to locate to the zip_distance folder. Then run `python manage.py runserver` command, and it will return with a link (http://127.0.0.1:8000/). Copy it to browser and explore the website :)
+Download the zip_distance folder to target folder. Use terminal with `cd` command to locate to the zip_distance folder. 
+
+Then run `python manage.py runserver` command, and it will return with a link (http://127.0.0.1:8000/). Copy it to browser and explore the website :)
 
 After using, type _Command+C / Contrl+C_ to quit the server.
 
