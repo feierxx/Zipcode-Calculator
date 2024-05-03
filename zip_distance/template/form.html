@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zipcode Distance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+        input[type="text"] {
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 4px;
+            width: 200px;
+        }
+        input[type="submit"] {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Zipcode Distance Calculator</h1>
+    <p>Please Enter Two 5-Digit US Zipcodes. No symbols accepted.</p>
+    <form action="calculate">
+        Zipcode 1: <input type="text" name="zip1"><br>
+        Zipcode 2: <input type="text" name="zip2"><br>
+        <input type="submit" value="Calculate Distance">
+    </form>
+</body>
+</html>

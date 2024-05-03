@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+        .container h2 {
+            color: #333;
+        }
+        .container p {
+            font-size: 1.1em;
+            color: #666;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="submit"] {
+            background: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Result</h2>
+        <p>{{ result }}</p>
+        <form action="{% url 'index' %}">
+            <input type="submit" value="Back to Form">
+        </form>
+    </div>
+</body>
+</html>
